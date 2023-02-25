@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body id="index">
+    <main id="main">
+        <h1 class="sr-only">Test Results and Summary</h1>
+        <section id="result" class="result" aria-label="section displaying your overall test results">
+            <h2 class="lavender">Your Result</h2>
+            <div id="score">
+                <div class="group">
+                    <p class="total">76</p>
+                    <p class="percent">of 100</p>
+                </div>
+                <div id="animation"></div>
+            </div>
+            <h3>Great</h3>
+            <p class="feedback wide-only">You scored higher than <span class="fill">65</span>% of the people who have taken these tests.</p>
+            <p class="feedback mobile-only">Your performance exceeds 65% of the people condicting the test here!</p>
+        </section>
+        <section id="summary" aria-label="section displaying your test results for each domain">
+            <h2 class="black">Summary</h2>
+            <table id="table">
+                <tbody>
+                    <tr class="rea">
+                        <td>
+                            <img class="reIcon" src="####" alt="reaction icon">
+                        </td>
+                        <td>
+                            <p class="reaction">####</p>
+                        </td>
+                        <td>
+                            <p class="category-score reac">##</p><span class="light-text">   / 100</span>
+                        </td>
+                    </tr>
+                    <tr class="mem">
+                        <td>
+                            <img class="meIcon" src="####" alt="memory icon">
+                        </td>
+                        <td>
+                            <p class="memory">####</p>
+                        </td>
+                        <td>
+                            <p class="category-score memo">##</p><span class="light-text">/ 100</span>
+                        </td>
+                    </tr>
+                    <tr class="ver">
+                        <td>
+                            <img class="veIcon" src="####" alt="verbal icon">
+                        </td>
+                        <td>
+                            <p class="verbal">####</p>
+                        </td>
+                        <td>
+                            <p class="category-score verb">##</p><span class="light-text">/ 100</span>
+                        </td>
+                    </tr>
+                    <tr class="vis">
+                        <td>
+                            <img class="viIcon" src="####" alt="visual icon">
+                        </td>
+                        <td>
+                            <p class="visual">####</p>
+                        </td>
+                        <td>
+                            <p class="category-score visu">##</p><span class="light-text">  / 100</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="button">Continue</button>
+        </section>
+        <div id="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. Coded by <a href="https://github.com/jguleserian" target="_blank" rel="noopener">Jeff Guleserian</a>.
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
