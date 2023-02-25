@@ -45,7 +45,7 @@ In addition to the Frentend Mentor challenges, I also wanted to practice some ad
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/jguleserian/FMC-ResultsSummaryComponent.git)
-- Live Site URL: [Add live site URL here](https://jguleserian.github.io/FMC-ResultsSummaryComponent/)
+- Live Site URL: [GitHub Pages](https://jguleserian.github.io/FMC-ResultsSummaryComponent/)
 
 ## My process
 
